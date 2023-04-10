@@ -8,79 +8,118 @@
     <title>Kishan Fitness Club</title>
 </head>
 <link rel="stylesheet" href="Css/style.css">
+<link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap" rel="stylesheet">
 <style>
     /* Css Reset */
     body {
+        font-family: 'Ubuntu', sans-serif;
         color: white;
         margin: 0px;
         padding: 0px;
         background: url('img/bi.jpg');
+        background-size: 2800px;
     }
 
-    .left{
+    .left {
         display: inline-block;
         position: absolute;
-        left: 34px;
-        top: 20px;
-        border: 2px solid red;
+        left: 65px;
+        top: 13px;
+        /* border: 2px solid red; */
     }
 
-    .left img{
+    .left img {
         width: 65px;
         margin: 0 17px;
         filter: invert();
     }
 
-    .left div{
+    .left div {
         text-align: center;
-        font-family: math;
+        font-size: 14px;
+        line-height: 3px;
     }
 
-    .mid{
+    .mid {
         display: block;
-        width:45%;
-        margin: 20px auto;
-        border: 2px solid green;
+        width: 45%;
+        margin: 21px auto;
+        /* border: 2px solid green; */
     }
 
-    .right{
+    .right {
         display: inline-block;
         position: absolute;
         right: 34px;
-        top: 20px;
-        border: 2px solid yellow;
+        top: 33px;
+        /* border: 2px solid yellow; */
     }
 
-    .btn{
+    .btn {
+        font-family: 'Ubuntu', sans-serif;
         margin: 0 9px;
         background-color: black;
         color: white;
-        padding: 6px 25px;
+        padding: 6px 40px;
         border: 2px solid gray;
         border-radius: 5px;
         font-size: 16px;
         cursor: pointer;
     }
 
-    .navbar{
-        display: inline-block;
-        /* width: 250px; */
+    .btn:hover {
+        background-color: rgb(46, 44, 44);
     }
 
-    .navbar li{
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
         display: inline-block;
         font-size: 20px;
     }
 
-    .navbar li a{
+    .navbar li a {
         color: white;
         text-decoration: none;
         padding: 34px 23px;
     }
 
-    .navbar li a:hover, .navbar li a:active{
+    .navbar li a:hover,
+    .navbar li a:active {
         text-decoration: underline;
         color: bisque;
+    }
+
+    .container {
+        /* border: 2px solid blueviolet; */
+        padding: 25px;
+        margin: 110px 50px;
+        border-radius: 32px;
+        width: 33%;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 324px;
+        margin: 4px auto;
+        padding: 8px;
+        border: 3px solid black;
+        font-size: 20px;
+        border-radius: 9px;
+        font-family: 'Ubuntu', sans-serif;
+    }
+
+    .container h1{
+        text-align: center;
+    }
+
+    .container button{
+        display: block;
+        width: 68%;
+        margin: 15px auto;
     }
 </style>
 
@@ -108,7 +147,24 @@
             <button class="btn">Email Us</button>
         </div>
     </header>
-
+    <div class="container">
+        <h1>Join the best gym in city</h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
 </body>
 
 </html>
