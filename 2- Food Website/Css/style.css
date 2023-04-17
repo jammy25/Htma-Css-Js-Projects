@@ -14,6 +14,18 @@
     display: flex;
     align-items: center;
     position: relative;
+    font-family: 'Kanit', sans-serif;
+    
+}
+
+#navbar::before {
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
 }
 
 /* Navigation Bar: Logo and Images */
@@ -27,26 +39,16 @@
 }
 
 /* Navigation Bar: List Styling */
-#navbar ul{
+#navbar ul {
     display: flex;
 }
 
-#navbar::before{
-    content: "";
-    background-color: black;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 0.8;
-}
-
-#navbar ul li{
+#navbar ul li {
     list-style: none;
     font-size: 1.3rem;
 }
 
-#navbar ul li a{
+#navbar ul li a {
     color: white;
     display: block;
     padding: 3px 20px;
@@ -54,7 +56,59 @@
     text-decoration: none;
 }
 
-#navbar ul li a:hover{
+#navbar ul li a:hover {
     color: black;
     background-color: white;
+}
+
+/* Home */
+#home{
+    display: flex;
+    flex-direction: column;
+    padding: 3px 200px;
+    height: 300px;
+    justify-content: center;
+    align-items: center;
+}
+
+#home::before{
+    content: "";
+    background: url(../img/back_g.jpg) no-repeat center center/cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.8;
+}
+
+#home h1{
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+#home p{
+    color: white;
+    text-align: center;
+    font-size: 1.3rem;
+    font-family: 'Bree Serif', serif;
+    
+}
+
+/* Utility Classes */
+.h-primary{
+    font-size: 3rem;
+    padding: 12px;
+}
+
+.btn{
+    padding: 8px 29px;
+    background-color: #14d95a94;
+    color: white;
+    border: 1px solid white;
+    border-radius: 11px;
+    margin: 17px;
+    font-size: 1.3rem;
+    cursor: pointer;
 }
