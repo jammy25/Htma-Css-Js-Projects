@@ -14,18 +14,21 @@
     display: flex;
     align-items: center;
     position: relative;
+    top: 0px;
     font-family: 'Kanit', sans-serif;
-    
+
 }
 
 #navbar::before {
     content: "";
     background-color: black;
     position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1;
-    opacity: 0.4;
+    opacity: 0.2;
 }
 
 /* Navigation Bar: Logo and Images */
@@ -62,47 +65,85 @@
 }
 
 /* Home */
-#home{
+#home {
     display: flex;
     flex-direction: column;
     padding: 3px 200px;
-    height: 300px;
+    /* height: 500px; */
+    height: 750px;
     justify-content: center;
     align-items: center;
 }
 
-#home::before{
+#home::before {
     content: "";
     background: url(../img/back_g.jpg) no-repeat center center/cover;
     position: absolute;
+    top: 0px;
+    left: 0px;
     height: 100%;
     width: 100%;
     z-index: -1;
     opacity: 0.8;
 }
 
-#home h1{
+#home h1 {
     color: white;
     text-align: center;
     font-family: 'Bree Serif', serif;
-    
+
 }
 
-#home p{
+#home p {
     color: white;
     text-align: center;
     font-size: 1.3rem;
     font-family: 'Bree Serif', serif;
-    
+
+}
+
+/* Services Section */
+
+#services {
+    margin: 35px;
+    display: flex;
+}
+
+#services .box {
+    border: 2px solid brown;
+    padding: 32px;
+    margin: 3px 6px;
+    border-radius: 28px;
+    background-color: #eaeaea;
+}
+
+#services .box img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+/* #service-container{
+    margin-top: 250px;
+} */
+#services .box p {
+    font-family: 'Bree Serif', serif;
 }
 
 /* Utility Classes */
-.h-primary{
+.h-primary {
     font-size: 3rem;
     padding: 12px;
+    font-family: 'Bree Serif', serif;
 }
 
-.btn{
+.h-secondary {
+    font-size: 2.3rem;
+    padding: 12px;
+    font-family: 'Bree Serif', serif;
+}
+
+.btn {
     padding: 8px 29px;
     background-color: #14d95a94;
     color: white;
@@ -111,4 +152,8 @@
     margin: 17px;
     font-size: 1.3rem;
     cursor: pointer;
+}
+
+.center {
+    text-align: center;
 }
