@@ -1,43 +1,44 @@
 /* Navigation */
-#navbar{
+#navbar {
     flex-direction: column;
 }
 
-navbar ul li a{
+navbar ul li a {
     font-size: 1rem;
     padding: 0px 7px;
     padding-bottom: 8px;
 }
+
 /* Home */
-#home{
+#home {
     height: 253px;
     padding: 3px 55px;
 }
 
-#home::before{
+#home::before {
     height: 400px;
 }
 
-#home p{
+#home p {
     font-size: 13px;
 }
 
 /* Services */
-#services{
+#services {
     flex-direction: column;
 }
 
-#service .box{
+#service .box {
     padding: 14px;
     margin: 2px 0px;
 }
 
 /* Client-Section */
-#clients{
+#clients {
     flex-wrap: wrap;
 }
 
-#clients img{
+#clients img {
     width: 80px;
     height: auto;
 }
@@ -47,11 +48,11 @@ navbar ul li a{
 /* Footer */
 
 /* Utility classes */
-.h-primary{
+.h-primary {
     font-size: 26px;
 }
 
-.btn{
+.btn {
     font-size: 13px;
     padding: 3px 7px;
 }
