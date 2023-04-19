@@ -23,6 +23,10 @@ html {
     z-index: 1;
 }
 
+#navbar #logo{
+    filter: invert(100%);
+}
+
 #navbar::before {
     content: "";
     background-color: black;
