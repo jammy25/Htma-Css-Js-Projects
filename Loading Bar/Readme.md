@@ -20,3 +20,7 @@ Simply include the HTML CSS and JS code in your project and the loader will be d
 
 - Learn the basics of HTML, CSS and JS
 - Learn how to use querySelector and addEventListener in JavaScript
+
+## Preview
+
+![ezgif-3-859c66e97f](https://github.com/jammy25/Html-Css-Js-Projects/assets/105405058/96912783-d984-40b7-b477-39c4130e37a1)
