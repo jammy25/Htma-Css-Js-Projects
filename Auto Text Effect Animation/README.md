@@ -22,3 +22,5 @@ The auto text effect animation is implemented using HTML, CSS, and JavaScript, w
   Overall, this project provided valuable hands-on experience in web development, animation techniques, code organization, collaboration, and documentation.
 
 ## Preview
+
+![gif](https://github.com/jammy25/Html-Css-Js-Projects/assets/105405058/36d680d1-4ecf-4a9c-bb70-4c7e4146fc9e)
